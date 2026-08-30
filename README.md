@@ -14,7 +14,7 @@
 | `catalog/community-posts.jsonl` / `community-comments.jsonl` | 上述帖子与纳入评论的机器可读目录 | 可用于 RAG、索引和增量同步 |
 | `catalog/knowledge-bank.jsonl` | Knowledge Bank 的 169 篇公开文章目录 | 所有作者只列公开元数据；立正的 35 篇全文指向统一社区语料 |
 | `catalog/videos.jsonl` | 立正 YouTube 频道的 536 条公开常规视频目录 | 标题、日期、链接、字幕状态、权利范围 |
-| `corpus/videos/` | 通过 V1 正向说话人/权利 allowlist 的本人主讲字幕 | 带 YouTube 时间码；嘉宾、多人及未确认内容不复制全文 |
+| `corpus/videos/` | 通过 V1 正向说话人/权利 allowlist 的 201 份本人主讲字幕 | 带 YouTube 时间码；嘉宾、多人及未确认内容不复制全文 |
 | `docs/` | 数据边界、回答协议、建 agent 指南 | 可直接作为开发规范 |
 | `scripts/` | 导出、搜索与发布前检查 | MIT |
 
