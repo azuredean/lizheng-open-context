@@ -4,7 +4,7 @@ title: "Adoption很重要，但经常被忽视｜常见四个错误｜课代表�
 author: "Yuzheng Sun"
 source_type: "video-transcript"
 source_url: "https://www.youtube.com/watch?v=qgtijiTjfgw"
-snapshot_at: "2026-08-29"
+snapshot_at: "2026-08-30"
 rights_scope: "first-party"
 speaker_classification: "solo-yuzheng"
 review_status: "approved"

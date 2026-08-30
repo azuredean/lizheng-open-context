@@ -28,6 +28,7 @@ class Document:
     published_at: str
     text: str
     path: str
+    content_status: str = "current"
 
 
 def parse_scalar(value: str):
@@ -95,6 +96,7 @@ def parse_markdown(path: Path) -> list[Document]:
                 published_at=str(meta.get("published_at") or meta.get("snapshot_at") or ""),
                 text=text,
                 path=str(path.relative_to(ROOT)),
+                content_status=str(meta.get("content_status") or "current"),
             )
         )
     return documents
@@ -103,7 +105,12 @@ def parse_markdown(path: Path) -> list[Document]:
 def load_documents() -> list[Document]:
     docs: list[Document] = []
     full_ids: set[str] = set()
-    for pattern in ("context/*.md", "corpus/knowledge-bank/*.md", "corpus/videos/*.md"):
+    for pattern in (
+        "context/*.md",
+        "corpus/community-posts/*.md",
+        "corpus/community-comments/*.md",
+        "corpus/videos/*.md",
+    ):
         for path in sorted(ROOT.glob(pattern)):
             parsed = parse_markdown(path)
             docs.extend(parsed)
@@ -130,6 +137,7 @@ def load_documents() -> list[Document]:
                     published_at=row.get("published_at") or "",
                     text=" ".join(row.get("guest_names") or []),
                     path=str(path.relative_to(ROOT)),
+                    content_status=str(row.get("content_status") or "current"),
                 )
             )
     return docs
@@ -180,11 +188,16 @@ def score(
         "context": 1.28,
         "book-framework": 1.24,
         "knowledge-bank": 1.14,
+        "community-post": 1.04,
+        "community-comment": 0.82,
         "video-transcript": 1.0,
         "knowledge-bank-catalog": 0.72,
         "video-catalog": 0.68,
     }.get(doc.source_type, 1.0)
-    return value * source_weight
+    status_weight = {"current": 1.0, "archived": 0.55, "test": 0.2}.get(
+        doc.content_status, 1.0
+    )
+    return value * source_weight * status_weight
 
 
 def snippet(doc: Document, query: str, terms: list[str], width: int = 220) -> str:
@@ -208,6 +221,10 @@ def type_matches(doc: Document, requested: str) -> bool:
         return doc.source_type in {"video-transcript", "video-catalog"}
     if requested == "knowledge-bank":
         return doc.source_type in {"knowledge-bank", "knowledge-bank-catalog"}
+    if requested == "community":
+        return doc.source_type in {"knowledge-bank", "community-post", "community-comment"}
+    if requested == "comment":
+        return doc.source_type == "community-comment"
     if requested == "context":
         return doc.source_type in {"context", "book-framework"}
     return doc.source_type == requested
@@ -218,7 +235,9 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("query")
     parser.add_argument("--top", type=int, default=8)
     parser.add_argument(
-        "--type", choices=["all", "context", "knowledge-bank", "video"], default="all"
+        "--type",
+        choices=["all", "context", "knowledge-bank", "community", "comment", "video"],
+        default="all",
     )
     parser.add_argument("--json", action="store_true", dest="as_json")
     return parser.parse_args()
@@ -262,6 +281,7 @@ def main() -> None:
                 "published_at": doc.published_at,
                 "url": doc.source_url,
                 "path": doc.path,
+                "content_status": doc.content_status,
                 "snippet": snippet(doc, args.query, terms),
             }
         )

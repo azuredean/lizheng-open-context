@@ -1,16 +1,16 @@
 ---
 id: public-profile-v1
-title: Yuzheng Sun / 课代表立正公开简介
+title: Yuzheng Sun / 立正公开简介
 author: Yuzheng Sun
 source_type: context
-snapshot_at: 2026-08-29
+snapshot_at: 2026-08-30
 rights_scope: first-party
 license: CC-BY-4.0
 ---
 
-# Yuzheng Sun / 课代表立正
+# Yuzheng Sun / 立正
 
-Yuzheng Sun（孙煜征，课代表立正）是 Superlinear Academy 创始人。他关注人在技术与组织变化中如何形成可检验的判断、学到真实能力，并把这些能力做成能被世界使用与检验的工作。
+Yuzheng Sun（孙煜征，立正；YouTube 频道历史名称为“课代表立正”）是 Superlinear Academy 创始人。他关注人在技术与组织变化中如何形成可检验的判断、学到真实能力，并把这些能力做成能被世界使用与检验的工作。
 
 他拥有 Cornell 经济学博士学位，曾任 Amazon economist、Meta data scientist、腾讯互动娱乐事业群 Data & AI 副总监并带领约 30 人团队，也曾任 Statsig principal data scientist 与 evangelist。离开雇佣关系后，他创办 Superlinear Academy，并通过课程、社区、书、公开访谈、文章与工具继续这项工作。
 
@@ -33,7 +33,7 @@ Yuzheng Sun（孙煜征，课代表立正）是 Superlinear Academy 创始人。
 
 - 个人网站：[lizheng.ai](https://www.lizheng.ai/)
 - Superlinear Academy：[superlinear.academy](https://www.superlinear.academy/)
-- 课代表立正 YouTube：[youtube.com/@kedaibiao](https://www.youtube.com/@kedaibiao)
+- 立正 YouTube（`@kedaibiao`）：[youtube.com/@kedaibiao](https://www.youtube.com/@kedaibiao)
 - 《真本事》：[lizheng.ai/zbs](https://www.lizheng.ai/zbs)
 - 两本书总览：[lizheng.ai/book](https://www.lizheng.ai/book)
 - GitHub：[github.com/sunyuzheng](https://github.com/sunyuzheng)

@@ -1,0 +1,54 @@
+---
+id: "circle-31109339"
+title: "把社区文章变成高级感小红书的skill"
+author: "Yuzheng Sun"
+source_type: "community-post"
+source_url: "https://www.superlinear.academy/c/share-your-projects/article-to-slides"
+published_at: "2026-03-28T16:39:37.236Z"
+updated_at: "2026-07-22T22:36:44.919Z"
+snapshot_at: "2026-08-30"
+community_space: "Share Your Projects"
+community_space_slug: "share-your-projects"
+source_visibility: "public"
+content_status: "current"
+rights_scope: "first-party"
+license: "CC-BY-4.0"
+third_party_exclusions: true
+contact_data_redacted: true
+---
+
+> 原文：[把社区文章变成高级感小红书的skill](https://www.superlinear.academy/c/share-your-projects/article-to-slides) · 发布于 2026-03-28 · 原始空间公开可见。本文保留发表时语境；其中第三方引文、发言、链接与商标不随正文重新授权。
+
+## 效果：
+
+原文：[#Skills写得越多，越不容易被AI取代？](https://www.superlinear.academy/c/main/skills-replacement)
+
+小红书图片版：
+
+[skills-replacement.html](https://assets-v2.circle.so/xae8m70xi2zn997rxi500ywc280q)
+
+这个skill会帮你自动截屏，之后你只要把这些图发小红书就行了
+
+这是在小红书上的效果：[https://www.xiaohongshu.com/discovery/item/69c7e787000000002200ede5?source=webshare&xhsshare=pc_web&xsec_token=ABjHZmP_0_DrK1uvlV-4T6g7NsOb3Y4GBiQyHXOcWVeoA=&xsec_source=pc_share](https://www.xiaohongshu.com/discovery/item/69c7e787000000002200ede5?source=webshare&xhsshare=pc_web&xsec_token=ABjHZmP_0_DrK1uvlV-4T6g7NsOb3Y4GBiQyHXOcWVeoA=&xsec_source=pc_share)
+
+这篇帖子刚发，流量还看不出来，之前[发了一篇](https://www.xiaohongshu.com/discovery/item/69c6b55800000000230200e7?source=webshare&xhsshare=pc_web&xsec_token=ABSlsaN0Hz-CsQMXgfR0H34vWX_zZ5MIU53Fzf-qafbCw=&xsec_source=pc_share)，24小时200赞，还可以：
+
+它不光是排版，而且还用一个更好理解的方式重新组织了文章，并且显得很高大上。相信也有助于你小红书的品牌调性。
+
+## 用法
+
+访问这个Github：[https://github.com/sunyuzheng/xhs-article-slides](https://github.com/sunyuzheng/xhs-article-slides) 就能看到。
+
+下载安装也很简单，你只需要在你的agentic AI工具里（Cursor / Claude Code / Codex / Antigravity）给它这个GitHub链接，说帮你下载一下，就行。或者
+
+```
+curl -O https://raw.githubusercontent.com/sunyuzheng/xhs-article-slides/main/article-to-slides.md
+```
+
+下载完，你只需要告诉你的工具三个东西，就可以使用了。
+
+1. 原文链接
+2. 原文内容贴进去
+3. 告诉它你要用这个skill （article-to-slides）
+
+欢迎大家多创作分享！

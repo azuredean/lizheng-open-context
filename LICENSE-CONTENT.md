@@ -15,12 +15,12 @@ are licensed under the [Creative Commons Attribution 4.0 International license](
 
 Attribution should include, when practical:
 
-- author: Yuzheng Sun / 课代表立正;
+- author: Yuzheng Sun / 立正;
 - the item title;
 - the canonical source URL or this repository;
 - an indication if the material was changed.
 
-This category includes the repository's original context materials, the author-owned framework reference derived from the community course and book *真本事*, Yuzheng-authored Knowledge Bank articles, and first-party video transcripts that are explicitly marked with that rights scope.
+This category includes the repository's original context materials, the author-owned framework reference derived from the community course and book *真本事*, Yuzheng-authored Superlinear posts and selected comments, and first-party video transcripts that are explicitly marked with that rights scope.
 
 ## Public metadata — CC0 1.0
 
@@ -44,6 +44,8 @@ The author-owned framework text in `context/zhenbenshi-frameworks.md` and the re
 
 ## No impersonation or endorsement
 
-The licenses allow reuse of covered material; they do not authorize anyone to claim that Yuzheng Sun, 课代表立正, Superlinear Academy, a guest, or an employer endorses a derivative product. Clearly label third-party agents and skills as independently developed.
+For community comments, the license covers only the text authored by Yuzheng Sun in the committed file. It does not cover the surrounding post, other members' replies, member identities, or context available after following the source link.
+
+The licenses allow reuse of covered material; they do not authorize anyone to claim that Yuzheng Sun, 立正, Superlinear Academy, a guest, or an employer endorses a derivative product. Clearly label third-party agents and skills as independently developed.
 
 When a file-level notice conflicts with this document, use the narrower rights statement and open an issue for clarification.

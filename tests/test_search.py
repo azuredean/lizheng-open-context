@@ -34,6 +34,36 @@ class SearchTests(unittest.TestCase):
         )
         self.assertTrue(MODULE.type_matches(doc, "context"))
 
+    def test_community_filter_includes_posts_comments_and_knowledge_bank(self):
+        for source_type in ("community-post", "community-comment", "knowledge-bank"):
+            doc = MODULE.Document(
+                id=source_type,
+                source_id=source_type,
+                title="标题",
+                section="",
+                source_type=source_type,
+                source_url="",
+                published_at="",
+                text="内容",
+                path="sample.md",
+            )
+            self.assertTrue(MODULE.type_matches(doc, "community"))
+
+    def test_comment_filter_is_narrow(self):
+        comment = MODULE.Document(
+            id="comment",
+            source_id="comment",
+            title="评论",
+            section="",
+            source_type="community-comment",
+            source_url="",
+            published_at="",
+            text="内容",
+            path="sample.md",
+        )
+        self.assertTrue(MODULE.type_matches(comment, "comment"))
+        self.assertFalse(MODULE.type_matches(comment, "knowledge-bank"))
+
 
 if __name__ == "__main__":
     unittest.main()
