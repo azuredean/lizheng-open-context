@@ -2,6 +2,12 @@
 
 Contributions that improve retrieval, provenance, corrections, accessibility, and public-source coverage are welcome.
 
+## Submit a derivative project
+
+If you built a public Skill, Agent, search tool, or other project from this repository, add it to [`COMMUNITY-PROJECTS.md`](COMMUNITY-PROJECTS.md) in a pull request. Include a working public link, the author, the project form, a concrete one-sentence description, and a Superlinear community post where people can see the project, discuss tradeoffs, or follow later updates.
+
+Listing is for discovery, not official endorsement. A submitted project must identify this repository as a source, preserve the applicable licenses, distinguish sourced material from synthesis or inference, and avoid private community content or unlicensed third-party text. You are also welcome to share the project in [Share Your Projects](https://www.superlinear.academy/c/share-your-projects?utm_source=github&utm_medium=referral&utm_campaign=lizheng_open_context) before opening the pull request.
+
 Before opening a pull request:
 
 1. confirm the canonical URL and original access state;

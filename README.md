@@ -4,6 +4,16 @@
 
 它不是一个替你模仿“立正口吻”的人格提示词，也不宣称能替本人回答。它更像一套有来源、有时间、有边界的公共材料：你可以用它做搜索、问答、视频推荐、研究索引，或开发自己的立正 Skill / Agent。
 
+## 从这里继续
+
+这个仓库保存的是可以检索、引用和继续开发的公开版本；仓库更新、衍生 Skill、使用反馈和新的问题会继续在 Superlinear 社区里讨论。
+
+**[查看仓库更新与衍生 Skill 讨论 →](https://www.superlinear.academy/c/tools/lizheng-context?utm_source=github&utm_medium=referral&utm_campaign=lizheng_open_context)**
+
+这条讨论发生在免费的 Superlinear Academy。20,000+ 位成员已经在社区分享 700+ 个公开项目；如果你有一个正在做的问题、原型或失败复盘，可以[免费加入并继续讨论](https://www.superlinear.academy/community?utm_source=github&utm_medium=referral&utm_campaign=lizheng_open_context)。
+
+继续看公开内容：[YouTube](https://www.youtube.com/@kedaibiao) · [Bilibili](https://space.bilibili.com/491306902)
+
 ## 这里有什么
 
 | 层 | 内容 | 开放方式 |
@@ -46,6 +56,12 @@ python3 scripts/search.py "做出代表作" --type video
 ## 已有参考实现
 
 [`sunyuzheng/zhenbenshi-advisor`](https://github.com/sunyuzheng/zhenbenshi-advisor) 是一个已经公开、聚焦《真本事》职业与价值框架的轻量 skill。它适合直接参考“怎样把一本书做成建议流程”；本仓库不复制或替代它，而是提供更广的公共来源层，让开发者可以同时使用《真本事》、Knowledge Bank、YouTube 与当前 thesis，并保留出处和时间语义。
+
+## 社区已经开始二创
+
+社区成员 UB 已经基于这个仓库做出了 [`Superlinear Advisor / 超线性小助手`](https://github.com/wyuebei-cloud/superlinear-advisor)：一个用于 Hermes Agent 的来源可追溯问答 Skill。它不模仿“立正口吻”，而是区分直接来源、综合与推断，并把答案带回原文和视频时间码。开发过程和反馈可以在[社区讨论](https://www.superlinear.academy/c/tools/lizheng-context#comment_wrapper_113225533)里继续看。
+
+这不是唯一或“官方指定”的实现。它证明的是：同一套开放 context 可以支持不同工具、交互方式和问题选择。更多衍生实现见 [`COMMUNITY-PROJECTS.md`](COMMUNITY-PROJECTS.md)。
 
 ## 这套材料主张什么
 
@@ -100,6 +116,16 @@ python3 scripts/search.py "做出代表作" --type video
 ## 更新与纠错
 
 这个仓库是版本化快照，不是假装永远最新的“数字分身”。每次发布会记录来源日期、筛选规则、数量和哈希。发现错字、归属错误、断链或隐私问题，请开 issue；涉及移除请求时，请只描述目标文件和原因，不要在 issue 里再次粘贴敏感内容。
+
+## 用完之后，带一个结果回来
+
+如果这个仓库帮你做出了一个答案、搜索工具、立正 Skill / Agent 或其他作品，欢迎同时把它带回 GitHub 和社区：
+
+1. 开源一个可检查的版本，说明它使用了哪些来源、怎样区分引用与推断；
+2. 提交 pull request，把它加入 [`COMMUNITY-PROJECTS.md`](COMMUNITY-PROJECTS.md)；
+3. 在 [Share Your Projects](https://www.superlinear.academy/c/share-your-projects?utm_source=github&utm_medium=referral&utm_campaign=lizheng_open_context) 发布可运行版本、失败原因或复盘，并把帖子链接带回[仓库更新讨论](https://www.superlinear.academy/c/tools/lizheng-context?utm_source=github&utm_medium=referral&utm_campaign=lizheng_open_context)。
+
+通过基本的链接、来源与权利检查后，项目会出现在这个上游仓库的社区实现列表里，给后来的 GitHub 访客多一个发现你的入口。社区也能围绕真实结果继续讨论，而不只停在“我也在用 AI”。
 
 ## License
 

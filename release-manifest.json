@@ -35,9 +35,14 @@
       "sha256": "13b88b03bd50fe2a621a4ab158c1b11fc8b624acb041863380c7240b4900c704"
     },
     {
+      "path": "COMMUNITY-PROJECTS.md",
+      "bytes": 2133,
+      "sha256": "a51c26230046a34511a91f1655e082eb73b61a9d5634e735e2c6861ff7615b70"
+    },
+    {
       "path": "CONTRIBUTING.md",
-      "bytes": 1420,
-      "sha256": "be3cf8cdc2ac743fbbafa3a314964c615d56afd11329f4f7cdbf5be8a63308a2"
+      "bytes": 2331,
+      "sha256": "86d80259bd2e50f277f67fb9666a64f22ef27a5153f35d56e714d8dbeadadf2e"
     },
     {
       "path": "LICENSE",
@@ -51,8 +56,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 8490,
-      "sha256": "7f441c0bab06a81a359ba514aab054d9a576e65a01cff96b1d4ab878e8e5eac9"
+      "bytes": 11072,
+      "sha256": "85d9b8c039d69482b33592f76beeefddaef7e58554e6a1eacf3bb82cd774b2c5"
     },
     {
       "path": "catalog/community-comments.jsonl",
@@ -101,8 +106,8 @@
     },
     {
       "path": "context/public-profile.md",
-      "bytes": 2253,
-      "sha256": "819498d3486aee467e7db9bb08a43fc8bf670a188717eadcf0fd4728d54c65be"
+      "bytes": 2416,
+      "sha256": "1b36c3cca72b05bb4caf90ec8b761be0976603b9cc9b465c653378731932f7fd"
     },
     {
       "path": "context/zhenbenshi-frameworks.md",

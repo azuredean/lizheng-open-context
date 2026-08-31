@@ -3,7 +3,7 @@ id: public-profile-v1
 title: Yuzheng Sun / 立正公开简介
 author: Yuzheng Sun
 source_type: context
-snapshot_at: 2026-08-30
+snapshot_at: 2026-08-31
 rights_scope: first-party
 license: CC-BY-4.0
 ---
@@ -34,6 +34,8 @@ Yuzheng Sun（孙煜征，立正；YouTube 频道历史名称为“课代表立�
 - 个人网站：[lizheng.ai](https://www.lizheng.ai/)
 - Superlinear Academy：[superlinear.academy](https://www.superlinear.academy/)
 - 立正 YouTube（`@kedaibiao`）：[youtube.com/@kedaibiao](https://www.youtube.com/@kedaibiao)
+- 立正 Bilibili：[space.bilibili.com/491306902](https://space.bilibili.com/491306902)
+- 立正 Substack：[yuzheng.substack.com](https://yuzheng.substack.com/)
 - 《真本事》：[lizheng.ai/zbs](https://www.lizheng.ai/zbs)
 - 两本书总览：[lizheng.ai/book](https://www.lizheng.ai/book)
 - GitHub：[github.com/sunyuzheng](https://github.com/sunyuzheng)
